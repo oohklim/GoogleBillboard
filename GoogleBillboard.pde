@@ -23,6 +23,9 @@ public void setup()
     }
 	}
 }
+public void draw(){
+  size(100,100,P2D);
+}
 public boolean isPrime(double dNum) 
 {   
    if(dNum < 2)
